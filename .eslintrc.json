@@ -1,0 +1,65 @@
+{
+    "env": {
+      "es2020": true,
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "airbnb-base",
+      "prettier",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      "eslint-plugin-import-helpers",
+      "prettier"
+    ],
+    "rules": {
+      "camelcase": "off",
+      "no-underscore-dangle": "off",
+      "import/no-unresolved": "error",
+      "import/no-named-default": "off",
+      "class-methods-use-this": "off",
+      "import/prefer-default-export": "off",
+      "no-shadow": "off",
+      "no-await-in-loop": "off",
+      "no-return-await": "off",
+      "no-restricted-syntax": "off",
+      "no-console": "off",
+      "no-useless-constructor": "off",
+      "no-useless-catch": "off",
+      "no-empty-function": "off",
+      "lines-between-class-members": "off",
+      "max-classes-per-file": "off",
+      "import-helpers/order-imports": [
+        "warn",
+        {
+          "newlinesBetween": "always",
+          "groups": [
+            "module",
+            "/^@shared/",
+            [
+              "parent",
+              "sibling",
+              "index"
+            ]
+          ],
+          "alphabetize": {
+            "order": "asc",
+            "ignoreCase": true
+          }
+        }
+      ],
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }    
+      ]
+    }
+  }
