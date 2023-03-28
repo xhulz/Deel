@@ -1,6 +1,5 @@
-# DEEL BACKEND TASK
+# Sequelize
 
-  
 
 💫 Welcome! 🎉
 
