@@ -4,7 +4,7 @@
 💫 Welcome! 🎉
 
 
-This backend exercise involves building a Node.js/Express.js app that will serve a REST API. We imagine you should spend around 3 hours at implement this feature.
+This backend involves building a Node.js/Express.js app that will serve a REST API. We imagine you should spend around 3 hours at implement this feature.
 
 ## Data Models
 
@@ -24,10 +24,6 @@ Contracts group jobs within them.
 contractor get paid for jobs by clients under a certain contract.
 
 ## Getting Set Up
-
-  
-The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
-
   
 
 1. Start by cloning this repository.
@@ -105,21 +101,3 @@ Below is a list of the required API's for the application.
     }
 ]
 ```
-
-  
-
-## Going Above and Beyond the Requirements
-
-Given the time expectations of this exercise, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
-
-It would be great for example if you'd write some unit test / simple frontend demostrating calls to your fresh APIs.
-
-  
-
-## Submitting the Assignment
-
-When you have finished the assignment, create a github repository and send us the link.
-
-  
-
-Thank you and good luck! 🙏
